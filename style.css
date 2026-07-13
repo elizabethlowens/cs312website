@@ -1,0 +1,64 @@
+/* Elizabeth Owens Module 7 */ 
+body{
+    color: blue;
+    background: radial-gradient(gray,white);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    color: darkred;
+    margin-left: 50px;
+    border:3px darkred;
+    width: 1000px;
+    text-align: left;
+    background-image: linear-gradient(to right, lightgray, white);
+    
+}
+h1{
+    background-color: skyblue;
+    border: 2px solid lightblue;
+    padding: 5px;
+    margin: 3px;
+    color: rgb(115, 154, 253)
+}
+h2{
+    background-color: skyblue;
+    border: 2px solid lightblue;
+    padding: 5px;
+    margin: 3px;
+    color: rgb(178, 164, 255);
+}
+h3{
+    background-color: skyblue;
+    border: 2px solid lightblue;
+    padding: 5px;
+    margin: 3px;
+}
+a{
+    text-align: center;
+    color:antiquewhite;
+}
+header{
+    border-radius:10%;
+padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    text-align: center;
+}
+nav{
+    text-align: center;
+    box-shadow: 5px 5px 5px gray;
+}
+
+footer{
+    text-align: center;
+    background-image: linear-gradient(to left, lightgray, white);
+}
+
+main{
+    color: darkblue;
+    text-align: center;
+}
+li{
+    text-align:left;
+}
