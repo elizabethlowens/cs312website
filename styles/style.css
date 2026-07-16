@@ -6,9 +6,7 @@ body{
 }
 p{
     color: darkred;
-    margin-left: 50px;
-    border:3px darkred;
-    width: 1000px;
+    border:3px darkred solid;
     text-align: left;
     background-image: linear-gradient(to right, lightgray, white);
     
@@ -48,6 +46,35 @@ padding-top: 10px;
 nav{
     text-align: center;
     box-shadow: 5px 5px 5px gray;
+    list-style: none;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    justify-content: center;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+nav a{
+    display: block;
+    color: navy;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 14px 22px;
+}
+nav a:hover{
+    background-color: lightblue;
+    color:gray;
+}
+nav a:focus{
+    background-color: lightblue;
+    color:gray;
 }
 
 footer{
@@ -61,4 +88,28 @@ main{
 }
 li{
     text-align:left;
+}
+
+#wrapper{
+    width: 100%;
+    margin: auto auto;
+    max-width: 1200px;
+    background-color: lightgray;
+    border: 2px solid darkgray;
+}
+
+.cards{
+    display:flex;
+    gap:15px;
+    margin-top: 15px;
+    flex-wrap:wrap;
+}
+.card{
+    background-color:lightgray;
+    padding:15px;
+    border: 1px solid navy;
+    border-radius:10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+    flex:1;
+    min-width:180px;
 }
