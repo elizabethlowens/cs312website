@@ -6,9 +6,8 @@ body{
 }
 p{
     color: darkred;
-    border:3px darkred solid;
     text-align: left;
-    background-image: linear-gradient(to right, lightgray, white);
+    padding: 20px;
     
 }
 h1{
@@ -16,14 +15,14 @@ h1{
     border: 2px solid lightblue;
     padding: 5px;
     margin: 3px;
-    color: rgb(115, 154, 253)
+    color: rgb(31, 68, 160);
 }
 h2{
     background-color: skyblue;
     border: 2px solid lightblue;
     padding: 5px;
     margin: 3px;
-    color: rgb(178, 164, 255);
+    color: rgb(84, 54, 255);
 }
 h3{
     background-color: skyblue;
@@ -33,7 +32,7 @@ h3{
 }
 a{
     text-align: center;
-    color:antiquewhite;
+    color: darkblue;
 }
 header{
     border-radius:10%;
